@@ -1,0 +1,28 @@
+.main {
+    .corel {
+        .corel-container {
+            .corel-content {
+                position:relative;
+                .corel-img {
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+
+                h1 {
+                    font-family: var(--font-family);
+                    font-weight: 500;
+                    font-size: 50px;
+                    line-height: 120%;
+                    text-transform: uppercase;
+                    color: #fff;
+                    position:absolute;
+                    top: 30%;
+                    left: 14%;
+                    // transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+}

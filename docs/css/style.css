@@ -1,0 +1,133 @@
+.navbar {
+  background: linear-gradient(132deg, #9e0b37 0%, #ffc531 71.98%, #9e0b37 100%);
+  align-items: center;
+  text-align: center;
+}
+.navbar .header-conteiner {
+  max-width: 88.75rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 1.875rem;
+  color: white;
+}
+.navbar .header-conteiner .menu {
+  display: flex;
+  gap: 1.25rem;
+}
+.navbar .header-conteiner .menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+.navbar .header-conteiner .menu a span {
+  margin-left: 0.75rem;
+}
+.navbar .header-conteiner .menu a:nth-child(2) {
+  margin: 0 4.5rem;
+}
+.navbar .header-conteiner .menu a.active {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+}
+.navbar .header-conteiner .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.9375rem;
+}
+.navbar .header-conteiner .buttons .login {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+}
+.navbar .header-conteiner .buttons .register {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1.0625rem;
+  color: #fff;
+  border-radius: 2.5rem;
+  padding: 1.5rem 4.5rem;
+  margin-left: 2.625rem;
+  box-shadow: inset 4px 4px 6px 0 rgba(255, 255, 255, 0.5), 4px 4px 20px 0 rgba(223, 80, 23, 0.8);
+  background: rgba(158, 11, 55, 0.7);
+}
+.navbar .header-conteiner .buttons a:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.main .corel .corel-container .corel-content {
+  position: relative;
+}
+.main .corel .corel-container .corel-content .corel-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.main .corel .corel-container .corel-content h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+
+html {
+  box-sizing: border-box;
+  max-width: 1920px;
+  padding: 0 auto;
+  background: #171422;
+}
+
+:root {
+  --font-family: "Gotham Pro", sans-serif;
+  --second-family: "Abel", sans-serif;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("GothamPro-Bold"), url("../fonts/GothamPro-Bold.woff2") format("woff2"), url("../fonts/GothamPro-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Abel";
+  src: local("Abel-Regular"), url("../fonts/Abel-Regular.woff2") format("woff2"), url("../fonts/Abel-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("/GothamPro-Medium"), url("../fonts/GothamPro-Medium.woff2") format("woff2"), url("../fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: local("/GothamPro-Regular"), url("../fonts/GothamPro-Regular.woff2") format("woff2"), url("../fonts/GothamPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
