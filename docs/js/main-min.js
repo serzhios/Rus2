@@ -1,0 +1,1 @@
+function catalogSlider(){if(document.querySelector(".mySwiper1"))new Swiper(".mySwiper1",{slidesPerView:4.5,spaceBetween:30,allowSlidePrev:!1,loop:!0})}function catalogSlider2(){if(document.querySelector(".mySwiper2"))new Swiper(".mySwiper2",{slidesPerView:4.5,spaceBetween:30,allowSlideNext:!1,loop:!0})}catalogSlider(),catalogSlider2();
